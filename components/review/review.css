@@ -1,0 +1,30 @@
+/* components/Testimonial.module.css */
+.testimonialContainer {
+  overflow: hidden;
+  width: 100%;
+  height: 200px; /* Adjust as needed */
+  position: relative;
+}
+
+.testimonialWrapper {
+  display: flex;
+  gap: 16px;
+  animation: scroll 50s linear infinite;
+}
+
+.testimonialCard {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonialWrapper:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

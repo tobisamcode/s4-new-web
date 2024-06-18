@@ -8,10 +8,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: {
+          100: "#653780",
+          200: "#371A48",
+          300: "#4B1F65",
+        },
+        grey: {
+          100: "#666666",
+        },
+        black: {
+          100: "#333333",
+        },
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "eclipse-bg": "url('/svg/ellipse.svg')",
+        "animated-shape": "url('/svg/animated-shape.svg')",
+        review: 'url("/svg/review-bg.svg")',
       },
     },
   },
