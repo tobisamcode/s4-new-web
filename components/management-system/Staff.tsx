@@ -42,7 +42,7 @@ const Staff = () => {
             alt="communication image"
             width={1000}
             height={1000}
-            className="  md:w-full mx-auto  "
+            className=" w-full md:w-[70%] mx-auto  "
           />
 
           <motion.div
@@ -50,7 +50,7 @@ const Staff = () => {
             variants={float(2)}
             initial="initial"
             animate="animate"
-            className="w-[120px] md:w-[130px] text-xs md:text-sm flex justify-center items-center bg-white rounded-[5px] p-2 border-[.5px] border-gray-600 absolute -right-4 md:-right-16 top-[45%]"
+            className="w-[120px] md:w-[160px] text-sm md:text-base flex justify-center items-center bg-white rounded-[8px] p-4 border border-gray-600 absolute -right-4 md:-right-0 top-[45%]"
           >
             Maximum admin role
           </motion.div>
