@@ -23,17 +23,17 @@ const Reviews = () => {
     <div className="px-8 py-16 overflow-hidden w-full relative bg-review bg-cover  bg-no-repeat">
       <div className="py-16 ">
         <div className="text-center mb-16">
-          <h1 className="text-primary-100 text-[48px]  font-[500]">
+          <h1 className="text-primary-100 text-[24px] md:text-[48px]  font-[500]">
             Some Reviews
           </h1>
-          <p className="text-black-100 font-[400] text-[18px] w-[50%] mx-auto">
+          <p className="text-black-100 font-[400] text-base md:text-[18px] md:w-[50%] mx-auto">
             Highlighted below are few of our reviews our happy users are saying
             about using our platform
           </p>
         </div>
 
         <div className="testimonialWrapper">
-          <div className="max-w-[450px] p-10 bg-white rounded-[5px] flex flex-col py gap-4">
+          <div className="max-w-[450px] p-10 bg-white rounded-[5px] flex flex-col  gap-4">
             {/* header */}
             <div className="flex gap-4 items-center">
               <Image
