@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const MultiSchools = () => {
   return (
-    <div className="py-8 bg-gradient-to-l from-white via-gray-200 to-gray-400">
+    <div className="py-8 bg-gradient-to-l from-white via-purple-100 to-purple-200">
       <Container>
         <div className="flex flex-col items-center text-center">
           <motion.h1
