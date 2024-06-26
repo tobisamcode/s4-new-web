@@ -12,17 +12,17 @@ const MultiSchools = () => {
         <div className="flex flex-col items-center text-center">
           <motion.h1
             whileInView={{ opacity: 1, y: 0 }}
-            initial={{ opacity: 0, y: -100 }}
+            initial={{ opacity: 0, y: -30 }}
             transition={{ duration: 1.4 }}
-            className="text-[48px] font-[500] mb-2"
+            className="text-[28px] md:text-[48px] font-[500] mb-2"
           >
             Multi-school Instances
           </motion.h1>
           <motion.p
             whileInView={{ opacity: 1, y: 0 }}
-            initial={{ opacity: 0, y: -100 }}
+            initial={{ opacity: 0, y: -20 }}
             transition={{ duration: 1.7 }}
-            className="text-black-100 text-base w-[60%] mb-10"
+            className="text-black-100 text-sm md:text-base md:w-[60%] mb-10"
           >
             Join our platform as a teacher to connect with a diverse pool of
             students. Expand your reach and impact a broader community of eager
