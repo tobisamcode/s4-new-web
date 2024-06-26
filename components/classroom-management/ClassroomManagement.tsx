@@ -21,7 +21,7 @@ const classroomManagements: string[] = [
 
 const ClassroomManagement = () => {
   return (
-    <section className="bg-gradient-to-r from-white via-gray-200 to-gray-400  ">
+    <section className="bg-gradient-to-r from-white via-purple-100 to-purple-200  ">
       <Container className=" py-16 md:py-32">
         <div className="grid space-y-6 md:grid-cols-7 space-x-0">
           <div className="col-span-4 ">
