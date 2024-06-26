@@ -10,9 +10,9 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({ label }) => {
   return (
     <motion.h1
       whileInView={{ opacity: 1, y: 0 }}
-      initial={{ opacity: 0, y: -100 }}
+      initial={{ opacity: 0, y: -20 }}
       transition={{ duration: 1.2 }}
-      className="text-primary-100 font-[500] text-[40px] mb-4"
+      className="text-primary-100 font-[500] text-[24px] md:text-[40px] mb-4"
     >
       {label}
     </motion.h1>
