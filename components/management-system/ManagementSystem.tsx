@@ -6,8 +6,8 @@ import Staff from "./Staff";
 
 const ManagementSystem = () => {
   return (
-    <section className="bg-white py-24 bg-gradient-to-r from-white via-gray-200 to-gray-400">
-      <Container className="flex flex-col gap-16">
+    <section className="bg-white py-24 bg-gradient-to-r from-white via-purple-100 to-purple-200">
+      <Container className="flex flex-col space-y-32 md:gap-16">
         <Communication />
         <Staff />
       </Container>
