@@ -12,13 +12,13 @@ const communication: string[] = [
 
 const Communication = () => {
   return (
-    <div className="grid grid-cols-7 gap-2 ">
+    <div className="grid md:grid-cols-7 space-y-6 gap-2 ">
       <div className="col-span-3 ">
         <SectionHeader label="Communication System" />
 
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
+          initial={{ opacity: 0, x: -20 }}
           transition={{ duration: 1.1 }}
           className="text-grey-100 text-base mb-6"
         >
@@ -29,7 +29,7 @@ const Communication = () => {
 
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
+          initial={{ opacity: 0, x: -20 }}
           transition={{ duration: 1.5 }}
           className="flex flex-col space-y-4 pl-1"
         >
@@ -44,7 +44,7 @@ const Communication = () => {
 
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: 100 }}
+        initial={{ opacity: 0, x: 20 }}
         transition={{ duration: 1.5 }}
         className="col-span-4 flex justify-center items-center"
       >
