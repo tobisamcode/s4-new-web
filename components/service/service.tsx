@@ -7,8 +7,8 @@ import WebMobile from "./WebMobile";
 
 const Service = () => {
   return (
-    <div className="py-44 bg-gradient-to-r from-white via-gray-200 to-gray-400">
-      <Container className="flex flex-col gap-44">
+    <div className="py-24 md:py-44 bg-gradient-to-r from-white via-purple-100 to-purple-200">
+      <Container className="flex flex-col space-y-16 md:gap-32">
         <ServiceOperation />
         <StudyTracking />
         <WebMobile />
