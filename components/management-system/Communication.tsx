@@ -49,11 +49,11 @@ const Communication = () => {
         className="col-span-4 flex justify-center items-center"
       >
         <Image
-          src={"/img/communication.jpeg"}
+          src={"/svg/communication-1.svg"}
           alt="communication image"
           width={1000}
           height={1000}
-          className="w-[70%] rounded-md"
+          className="w-[90%] md:w-[70%] rounded-md"
         />
       </motion.div>
     </div>
