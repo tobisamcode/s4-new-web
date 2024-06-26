@@ -16,7 +16,7 @@ const study: string[] = [
 ];
 
 const float = (duration: number) => ({
-  initial: { y: -10 },
+  initial: { y: -6 },
   animate: {
     y: [6, -6],
     transition: {
@@ -30,11 +30,11 @@ const float = (duration: number) => ({
 
 const StudyTracking = () => {
   return (
-    <div className="grid grid-cols-7 gap-6 ">
+    <div className="grid md:grid-cols-7 space-y-6 gap-6 ">
       <div className="col-span-4 flex justify-center items-center">
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
+          initial={{ opacity: 0, x: -20 }}
           transition={{ duration: 2 }}
           className="relative"
         >
@@ -43,14 +43,14 @@ const StudyTracking = () => {
             alt="communication image"
             width={1000}
             height={1000}
-            className="w-[500px] rounded-md "
+            className="w-[300px] md:w-[500px] rounded-md "
           />
           <motion.div
             //@ts-ignore
             variants={float(2.3)}
             initial="initial"
             animate="animate"
-            className="w-[150px] flex justify-center items-center bg-white rounded-[5px] p-2 border-[.5px] border-gray-600 absolute -left-12 -top-0"
+            className="w-[150px] text-sm md:text-base flex justify-center items-center bg-white rounded-[5px] p-2 border-[.5px] border-gray-600 absolute -left-3 md:-left-12 -top-0"
           >
             Comprehensive reports
           </motion.div>
@@ -59,7 +59,7 @@ const StudyTracking = () => {
             variants={float(2)}
             initial="initial"
             animate="animate"
-            className="w-[150px] flex justify-center items-center bg-white rounded-[5px] p-2 border-[.5px] border-gray-600 absolute right-0 top-[45%]"
+            className="w-[150px] text-sm md:text-base flex justify-center items-center bg-white rounded-[5px] p-2 border-[.5px] border-gray-600 absolute right-0 top-[45%]"
           >
             Supports Overview Result
           </motion.div>
@@ -68,7 +68,7 @@ const StudyTracking = () => {
             variants={float(2.7)}
             initial="initial"
             animate="animate"
-            className="w-[170px] flex justify-center items-center bg-white rounded-[5px] p-2 border-[.5px] border-gray-600 absolute -left-12 -bottom-0"
+            className="w-[170px] text-sm md:text-base flex justify-center items-center bg-white rounded-[5px] p-2 border-[.5px] border-gray-600 absolute -left-4 md:-left-12 -bottom-0"
           >
             Graphical representations
           </motion.div>
@@ -80,7 +80,7 @@ const StudyTracking = () => {
 
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
+          initial={{ opacity: 0, x: 20 }}
           transition={{ duration: 2 }}
           className="text-grey-100 text-base mb-6"
         >
@@ -91,7 +91,7 @@ const StudyTracking = () => {
 
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
+          initial={{ opacity: 0, x: 20 }}
           transition={{ duration: 2.4 }}
           className="flex flex-col space-y-4 pl-1"
         >
