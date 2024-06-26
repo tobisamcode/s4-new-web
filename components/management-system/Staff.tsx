@@ -29,8 +29,8 @@ const float = (duration: number) => ({
 
 const Staff = () => {
   return (
-    <div className="grid md:grid-cols-7 space-y-10 gap-2 ">
-      <div className="col-span-4 flex items-center ">
+    <div className="grid md:grid-cols-7 space-y-16 gap-2 ">
+      <div className="col-span-4 flex justify-center items-center ">
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -20 }}
@@ -38,38 +38,21 @@ const Staff = () => {
           className="relative"
         >
           <Image
-            src={"/img/staff.png"}
+            src={"/svg/staff-1.svg"}
             alt="communication image"
             width={1000}
             height={1000}
-            className="md:w-[80%] rounded-md "
+            className="w-full mx-auto  "
           />
-          <motion.div
-            //@ts-ignore
-            variants={float(2.3)}
-            initial="initial"
-            animate="animate"
-            className="w-[140px] text-sm md:text-base md:w-[150px] flex justify-center items-center bg-white rounded-[5px] p-2 border-[.5px] border-gray-600 absolute -left-2 md:-left-12 -top-12"
-          >
-            Enhance staff management
-          </motion.div>
+
           <motion.div
             //@ts-ignore
             variants={float(2)}
             initial="initial"
             animate="animate"
-            className="w-[120px] md:w-[130px] text-sm md:text-base flex justify-center items-center bg-white rounded-[5px] p-2 border-[.5px] border-gray-600 absolute -right-3 md:right-12 top-[45%]"
+            className="w-[120px] md:w-[130px] text-xs md:text-sm flex justify-center items-center bg-white rounded-[5px] p-2 border-[.5px] border-gray-600 absolute -right-10 md:-right-16 top-[45%]"
           >
             Maximum admin role
-          </motion.div>
-          <motion.div
-            //@ts-ignore
-            variants={float(2.7)}
-            initial="initial"
-            animate="animate"
-            className="w-[150px] md:w-[170px] text-sm md:text-base flex justify-center items-center bg-white rounded-[5px] p-2 border-[.5px] border-gray-600 absolute -left-3 md:-left-12 -bottom-12"
-          >
-            Allows overseeing activities
           </motion.div>
         </motion.div>
       </div>
