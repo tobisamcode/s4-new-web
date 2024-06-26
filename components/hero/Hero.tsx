@@ -20,7 +20,7 @@ const float = (duration: number) => ({
 
 const Hero = () => {
   return (
-    <div className="relative bg-gradient-to-r from-primary-100 via-purple-700 to-primary-200 py-16 md:py-32 -mt-4  overflow-x-hidden ">
+    <div className="relative bg-gradient-to-r from-primary-100 via-purple-700 to-primary-200 py-24 md:py-32 -mt-4  overflow-x-hidden ">
       <motion.div
         //@ts-ignore
         variants={float(2.3)}
@@ -57,7 +57,7 @@ const Hero = () => {
               initial={{ x: -10, opacity: 0 }}
               animate={{ x: 0, opacity: 10 }}
               transition={{ duration: 0.6, delay: 0 }}
-              className="text-[24px] md:text-[32px] lg:text-[40px] text-white font-[600]"
+              className="text-[28px] md:text-[32px] lg:text-[40px] text-white font-[600]"
             >
               Transform traditional education with Study4As, a cutting-edge
               classroom as a service
