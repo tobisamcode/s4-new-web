@@ -7,6 +7,7 @@
 }
 
 .testimonialWrapper {
+  width: 5000px;
   display: flex;
   gap: 16px;
   animation: scroll 50s linear infinite;
