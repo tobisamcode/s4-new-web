@@ -7,13 +7,13 @@ const device: string[] = ["Mobile apps", "Web app", "Console", "Database"];
 
 const WebMobile = () => {
   return (
-    <div className="grid grid-cols-7 gap-2 ">
+    <div className="grid md:grid-cols-7 gap-2 ">
       <div className="col-span-3 ">
         <SectionHeader label="Custom Web/Mobile App" />
 
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
+          initial={{ opacity: 0, x: -20 }}
           transition={{ duration: 2 }}
           className="text-grey-100 text-base mb-6"
         >
@@ -24,7 +24,7 @@ const WebMobile = () => {
 
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
+          initial={{ opacity: 0, x: -20 }}
           transition={{ duration: 2.3 }}
           className="flex flex-col space-y-4 pl-1"
         >
@@ -39,7 +39,7 @@ const WebMobile = () => {
 
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: 100 }}
+        initial={{ opacity: 0, x: 20 }}
         transition={{ duration: 2.4 }}
         className="col-span-4 flex justify-center items-center"
       >
@@ -48,7 +48,7 @@ const WebMobile = () => {
           alt="communication image"
           width={1000}
           height={1000}
-          className="w-[70%] rounded-md"
+          className="md:w-[70%] rounded-md"
         />
       </motion.div>
     </div>
