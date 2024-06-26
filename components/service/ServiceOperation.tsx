@@ -44,11 +44,11 @@ const ServiceOperation = () => {
         className="col-span-4 flex justify-center items-center"
       >
         <Image
-          src={"/img/service.png"}
+          src={"/svg/service-1.svg"}
           alt="communication image"
           width={1000}
           height={1000}
-          className="md:w-[70%] rounded-md"
+          className="w-[70%] md:w-[70%] rounded-md"
         />
       </motion.div>
     </div>
