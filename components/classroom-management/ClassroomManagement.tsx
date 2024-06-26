@@ -21,13 +21,13 @@ const classroomManagements: string[] = [
 
 const ClassroomManagement = () => {
   return (
-    <section className="bg-gradient-to-r from-white via-gray-200 to-gray-400">
-      <Container className="py-32">
-        <div className="grid grid-cols-7 space-x-0">
+    <section className="bg-gradient-to-r from-white via-gray-200 to-gray-400  ">
+      <Container className=" py-16 md:py-32">
+        <div className="grid space-y-6 md:grid-cols-7 space-x-0">
           <div className="col-span-4 ">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
+              initial={{ opacity: 0, x: -20 }}
               transition={{ duration: 1.5 }}
               className="flex w-full  justify-center items-center"
             >
@@ -46,9 +46,9 @@ const ClassroomManagement = () => {
 
             <motion.p
               whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
+              initial={{ opacity: 0, x: 20 }}
               transition={{ duration: 1.1 }}
-              className="text-grey-100 text-[20px] mb-6"
+              className="text-grey-100 text-base md:text-[20px] mb-6"
             >
               Studey4As equips educators with tools to effortlessly conduct
               classroom lessons, ensuring a smooth and uninterrupted delivery of
@@ -57,7 +57,7 @@ const ClassroomManagement = () => {
 
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
+              initial={{ opacity: 0, x: 20 }}
               transition={{ duration: 1.5 }}
               className="flex flex-col space-y-4"
             >
