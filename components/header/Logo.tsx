@@ -3,7 +3,7 @@ import { LogoSvg } from "../svg";
 const Logo = () => {
   return (
     <div>
-      <LogoSvg width={120} />
+      <LogoSvg width={90} />
     </div>
   );
 };
